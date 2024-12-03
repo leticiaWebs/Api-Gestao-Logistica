@@ -11,7 +11,6 @@ import java.util.List;
 
 @Component
 public class AtualizacaoCoordenadas {
-
     @Autowired
     private EntregaRepository entregaRepository;
 
@@ -37,4 +36,5 @@ public class AtualizacaoCoordenadas {
             }
         }
     }
+
 }

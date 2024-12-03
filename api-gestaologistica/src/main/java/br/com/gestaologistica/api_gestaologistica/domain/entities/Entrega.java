@@ -1,11 +1,11 @@
 package br.com.gestaologistica.api_gestaologistica.domain.entities;
 
-import lombok.Getter;
-import lombok.Setter;
 
 import java.time.LocalDateTime;
 
+
 public class Entrega {
+
     private String idPedido;
     private String origem;
     private String destino;
@@ -119,4 +119,7 @@ public class Entrega {
     public void setDestinoLongitude(double destinoLongitude) {
         this.destinoLongitude = destinoLongitude;
     }
+
+
+
 }

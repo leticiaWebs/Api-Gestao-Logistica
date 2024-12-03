@@ -20,7 +20,6 @@ public class EntregaRepository {
     public Entrega buscarPorIdPedido(String idPedido) {
         return entregas.get(idPedido);
     }
-
     public List<Entrega> buscarTodas() {
         return new ArrayList<>(entregas.values());
     }
