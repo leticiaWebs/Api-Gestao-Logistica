@@ -11,7 +11,7 @@ public class LogisticaService {
     @Autowired
     private GoogleMapsService googleMapsService;
 
-    private static final String GOOGLE_API_KEY = "AIzaSyAm_VqhzczYn5tCqG9UpHsBRbOutfSBsto";
+    private static final String GOOGLE_API_KEY = "GOOGLE_API_KEY";
 
     public double calcularDistanciaEntreCidades(String origem, String destino) throws Exception {
         String response = googleMapsService.calcularDistancia(origem, destino, GOOGLE_API_KEY);
