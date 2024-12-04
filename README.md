@@ -29,8 +29,6 @@ Para a criação do container de execução do projeto.
 
 ### Tecnologias Usadas
 
-
--   Para o desenvolvimento do batch foi usado :
 -   Spring Web
 -   Spring JPA
 -   Kafka
